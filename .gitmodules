@@ -1,0 +1,3 @@
+[submodule "confession"]
+	path = confession
+	url = https://github.com/AmeDin/confession.git
