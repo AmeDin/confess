@@ -25,6 +25,7 @@ mongoose
 mongoose.set('useFindAndModify', false);
 mongoose.set('useUnifiedTopology', true);
 app.use('/api/passcode', require('./routes/passcode'));
+app.use('/api/confession', require('./routes/confession'));
 
 // Serve static assets if in production
 if(process.env.NODE_ENV === 'production'){
